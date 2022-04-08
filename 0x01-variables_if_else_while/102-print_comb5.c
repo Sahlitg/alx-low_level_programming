@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Return: 0 always 
+ * Return: 0 always
  */
 int main(void)
 {
 	int dgt1, dgt2;
-	
+
 	for (dgt1 = 0; dgt1 <= 98; dgt1++)
 	{
 		for (dgt2 = dgt1 + 1; dgt2 <= 99; dgt2++)
