@@ -5,7 +5,6 @@
  * main - Entery point
  * Return: Always 0 (Success/correct)
  */
-
 int main(void)
 {
 	int n;
@@ -25,7 +24,7 @@ int main(void)
 
 	else 
 	{
-		printf("%i is postive\n", n);
+		printf("%i is positive\n", n);
 	}
 	return (0);
 }
