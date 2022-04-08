@@ -6,12 +6,8 @@
  */
 int main(void)
 {
-	int a;
-	long int b;
-	long long int c;
-	char d;
-	float f;
-
+	
+	/* sizeof evaluates the size of a variable */
 	printf("Size of char: %lu byte(s)\n", sizeof(d));
 	printf("Size of an int: %lu byte(s)\n", sizeof(a));
 	printf("Size of a long int: %lu byte(s)\n", sizeof(b));
