@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ * Return: 0 after printing the function
  */
 int main(void)
 {
-	an int a;
-	a long int b;
-	a long long int c;
+	int a;
+	long int b;
+       	long long int c;
 	char d;
 	float f;
 
