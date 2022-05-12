@@ -1,13 +1,7 @@
-#ifdef _VARIADIC_FUNCTION_H
+#ifndef _VARIADIC_FUNCTION_H
 #define _ VARIADIC_FUNCTION_H
 #include <stdarg.h>
 #include <stdio.h>
-
-typedef struct fmt
-{
-	char *f
-		void (*p)(va_list s);
-}my_fmt;
 
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
