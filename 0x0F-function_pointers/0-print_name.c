@@ -2,13 +2,12 @@
 /**
  * print_name - prints a name
  * @name: name of theperson
- *
- * Return: Nothing.
+ * @f: function name
  */
 void print_name(char *name, void (*f)(char *));
 {
-	char name = "sahlit";
-
-	printf("my name is %s\n", name);
-	return ()
+	if (name && f)
+	{
+		f(name);
+	}
 }
